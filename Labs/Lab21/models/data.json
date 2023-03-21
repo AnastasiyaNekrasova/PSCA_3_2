@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "fio": "Nastya Nekrasova",
+    "number": "+375(33)644-17-74"
+  },
+  {
+    "id": 1,
+    "fio": "Bay Igor Ochen Krasiviy",
+    "number": "+375(29)200-51-41"
+  },
+  {
+    "id": 2,
+    "fio": "Shastovskaya Marina",
+    "number": "+375(33)633-14-34"
+  },
+  {
+    "id": 3,
+    "fio": "Birill Kulavski Loh",
+    "number": "+375(44)538-80-08"
+  },
+  {
+    "id": 5,
+    "fio": "Test",
+    "number": "+375(29)845-63-25"
+  }
+]

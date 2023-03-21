@@ -1,0 +1,16 @@
+<div class="phoneBook" style="height: auto;">
+    {{#each phones}}
+    {{>phone}}
+    {{/each}}
+</div>
+<div class="editContainer" data-key="{{targetPhone.id}}">
+    <div class="inputContainer">
+    <input type="text" name="fio" placeholder="FIO" value="{{targetPhone.fio}}">
+    <input type="text" name="number" placeholder="+375(xx)xxx-xx-xx" value="{{targetPhone.number}}">
+    </div>
+    <div class="btnContainer">
+    <button type="button" onclick="update()">Update</a>
+    <button class="rmvBtn" type="button" onclick="remove()">Delete</a>
+    <button type="button" onclick="{{goBack}}">Back</button>
+    </div>
+</div>
